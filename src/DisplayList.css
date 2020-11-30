@@ -2,15 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Oswald:wght@300;400&display=swap');
 
 .card-text{
-  font-size: 1.4em;
+  font-size: 1.4rem;
   font-family: 'Oswald', sans-serif;
 
 }
 .title {
-  font-size: 4em;
+  font-size: 4rem;
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
-  padding: 2em;
+  padding: 2rem;
 }
 Button {
   border-radius: 0 !important;
@@ -29,8 +29,8 @@ h3 {
 }
 
 .card{
-  max-width: 16em;
-  min-width: 16rem;
+  max-width: 18rem;
+  min-width: 18rem;
   margin-top: 4%;
   padding: 20px;
   align-items: flex-start;
