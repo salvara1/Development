@@ -40,7 +40,7 @@
 }
 
 .col-sm-4{
-  max-width: 9rem;
+  max-width: 8em;
 
   text-align: center;
 }
@@ -50,10 +50,10 @@
   flex-direction: column;
 }
 .title {
-  font-size: 4rem;
+  font-size: 4em;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
-  padding: 2rem;
+  padding: 2em;
 }
 
 .wrapper {
@@ -71,7 +71,7 @@
 
 .form-control{
   font-weight: bolder;
-  font-size: 1.3rem;
+  font-size: 1.3em;
 
 }
 
@@ -87,7 +87,7 @@ b{
 }
 
 #total{
-  font-size: 2rem;
+  font-size: 2em;
   font-weight: 700;
   margin-top: 20px;
   text-align: right;
