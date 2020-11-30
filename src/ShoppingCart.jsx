@@ -12,7 +12,7 @@ import Input from 'react-bootstrap/InputGroup'
 // functionality that can happen in the Shopping Cart, including
 // incrementing/decrementing quantity of an item in cart and removing item from
 // cart entirely.
-// Include cart total. 
+// Include cart total.
 class ShoppingCart extends React.Component {
 
   constructor(props) {
@@ -22,7 +22,7 @@ class ShoppingCart extends React.Component {
   render() {
     return (
       <div className="wrapper">
-        <h1 className="shoppingtitle">SHOPPING CART</h1>
+        <h2 className="shoppingtitle">SHOPPING CART</h2>
         <div className="cards">
           {
             Object.keys(this.props.contents).map(
@@ -33,7 +33,7 @@ class ShoppingCart extends React.Component {
                     <img id="img" src={this.props.contents[key].pic} alt="Card image cap"></img>
                     {/* Includes key information about product type */}
                     <div className="card-body">
-                      <h3>{this.props.contents[key].name} ${this.props.contents[key].cost}</h3>
+                      <h5 className="oswald">{this.props.contents[key].name} ${this.props.contents[key].cost}</h5>
                       <div>{this.props.contents[key].size}-Wick Candle</div>
                       <div>{this.props.contents[key].burntime}hr Burntime</div>
                     </div>
@@ -41,17 +41,17 @@ class ShoppingCart extends React.Component {
                   <div className="col-sm-4">
                       <div className="input-group">
                           <div className="input-group-prepend">
-                              <Button variant="outline-dark" onClick={()=>this.props.removeOne(this.props.contents[key])}>-</Button>
+                              <Button variant="outline-dark" onClick={()=>this.props.removeOne(this.props.contents[key])} size="sm">-</Button>
                           </div>
                           <div className="form-control"> {this.props.contents[key].quantity}</div>
                           <div className="input-group-append">
-                              <Button variant="outline-dark" onClick={()=>this.props.addToCart(this.props.contents[key])}>+</Button>
+                              <Button variant="outline-dark" onClick={()=>this.props.addToCart(this.props.contents[key])} size="sm">+</Button>
                           </div>
                       </div>
                   </div>
                   <div className="x">
                     <Button className="x_style"onClick={()=>this.props.removeAll(this.props.contents[key])}>
-                      <h2 className="h2">x</h2>
+                      X
                     </Button>
                   </div>
                 </div>

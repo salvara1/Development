@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&family=Oswald:wght@300;400;700&display=swap');
 
-.card{
-  width: 18rem;
-}
-
 .row{
   display: flex;
   flex-direction: row;
@@ -17,14 +13,14 @@ Navbar{
 }
 
 .Navbar {
-  height: 10rem;
-  padding: 3rem;
-  font-size: 1.4rem;
+  height: 8rem;
+  padding: 2.4rem;
+  font-size: 1.12rem;
   background-color: #DFD5C0;
 }
 
 .brand {
-  font-size: 3rem;
+  font-size: 2.4rem;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
 }

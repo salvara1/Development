@@ -1,23 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Oswald:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&family=Oswald:wght@300;400&display=swap');
 
-.card-text{
-  font-size: 1.4rem;
-  font-family: 'Oswald', sans-serif;
-
-}
-.title {
-  font-size: 4rem;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
-  padding: 2rem;
-}
 Button {
   border-radius: 0 !important;
-  margin-top: 3%;
 }
 
-h3 {
+h4 {
   font-family: 'Oswald', sans-serif;
   font-weight: bold;
   text-align: left;
@@ -29,10 +17,10 @@ h3 {
 }
 
 .card{
-  max-width: 18rem;
-  min-width: 18rem;
+  max-width: 14rem;
+  min-width: 14rem;
   margin-top: 4%;
-  padding: 20px;
+  padding: 16px;
   align-items: flex-start;
   border-style: none;
 }
@@ -41,6 +29,7 @@ h3 {
   text-align: left;
   font-family: 'Montserrat', sans-serif;
   font-weight: normal;
+
 }
 .card-deck{
   display: flex;
@@ -48,14 +37,15 @@ h3 {
   flex-wrap: wrap;
   width: 100%;
   justify-content: center;
-  margin-left: 12px;
+  margin-left: 9.6px;
 }
 
 .card-body{
   padding: 0;
-  padding-bottom: 13px;
+  padding-bottom: 10.4px;
   font-style: 'Montserrat', sans-serif;
-  font-weight: 300;
+  font-weight: 200;
+  font-size: .8rem;
 }
 
 .card-img-top{
@@ -73,10 +63,10 @@ h3 {
   background-color: #F2ECDE;
 }
 
-h1 {
+.h {
   font-style: 'Montserrat', sans-serif;
   text-align: center;
-  margin-top: 30px;
+  margin-top: 24px;
   font-weight: 400;
 }
 

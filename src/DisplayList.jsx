@@ -19,7 +19,7 @@ class DisplayList extends React.Component {
   render() {
     return (
       <div className="column">
-        <h1>CANDLES</h1>
+        <h2 className="h">CANDLES</h2>
         {/* renders sorting and filtering options */}
         <Navbar expand="xl" variant="light" className="color">
           <NavDropdown title="Filter by Size" id="collasible-nav-dropdown">
@@ -46,15 +46,15 @@ class DisplayList extends React.Component {
             (item) =>
             <div className="card">
               <img className="card-img-top" src={item.pic} alt="Card image cap"></img>
-              <h3>{item.name}</h3>
+              <h4>{item.name}</h4>
               <div className="card-body">
                 <div className="align-bug">{item.season} Collection</div>
                 <div className="align-bug">{item.size}-Wick Candle</div>
                 <div className="align-bug">{item.burntime}hr Burn Time</div>
               </div>
-              <h4 id="cost">${item.cost}</h4>
+              <h5 id="cost">${item.cost}</h5>
               {/* Allows user to add the current item to cart */}
-              <Button onClick={()=>this.props.addToCart(item)} variant="dark" size="lg" block>
+              <Button onClick={()=>this.props.addToCart(item)} variant="dark" size="sm" block>
                 + Add to Cart
               </Button>
             </div>
