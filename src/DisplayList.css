@@ -29,8 +29,8 @@ h3 {
 }
 
 .card{
-  max-width: 18rem;
-  min-width: 18rem;
+  max-width: 15rem;
+  min-width: 15rem;
   margin-top: 4%;
   padding: 20px;
   align-items: flex-start;
