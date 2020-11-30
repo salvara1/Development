@@ -19,7 +19,7 @@ class DisplayList extends React.Component {
   render() {
     return (
       <div className="column">
-        <h2 className="h">CANDLES</h2>
+        <h2 className="candletitle">CANDLES</h2>
         {/* renders sorting and filtering options */}
         <Navbar expand="xl" variant="light" className="color">
           <NavDropdown title="Filter by Size" id="collasible-nav-dropdown">

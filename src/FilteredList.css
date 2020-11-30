@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&family=Oswald:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700&family=Oswald:wght@300;400;700&display=swap');
 
 .row{
   display: flex;
@@ -10,6 +10,7 @@
 
 Navbar{
   width: 100%;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .Navbar {
@@ -22,7 +23,7 @@ Navbar{
 .brand {
   font-size: 2.4rem;
   font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .dropdown {
