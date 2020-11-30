@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&family=Oswald:wght@300;400;700&display=swap');
+
+.mb-3{
+  display: flex;
+}
+
+.equal {
+  flex-grow: 1;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  max-width: 90%;
+  justify-content: center;
+  margin-left: 5%;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  width: 65%;
+}
+
+.flex-row-2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* border-bottom: solid 1px; */
+  width: 100%;
+  height: auto;
+  padding: 3%;
+  padding-top: 5%;
+  align-items: center;
+}
+
+.col-sm-4{
+  max-width: 9rem;
+
+  text-align: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  font-size: 4rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  padding: 2rem;
+}
+
+.wrapper {
+  width: 40%;
+  text-align: left;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  background-color: white;
+}
+
+.shoppingtitle{
+  text-align: center;
+}
+
+.form-control{
+  font-weight: bolder;
+  font-size: 1.3rem;
+
+}
+
+#img {
+  height: 7rem;
+  margin-right: 2rem;
+}
+
+
+b{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#total{
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 20px;
+  text-align: right;
+}
+
+.card-body{
+  font-weight: 300;
+}
+
+.x{
+  align-self: flex-start;
+}
+
+.x_style{
+  color: black;
+  background-color: white;
+  border-style: none;
+  padding-top: 0;
+}
+
+.x_style:hover{
+  color: black;
+  background-color: white;
+  border-style: none;
+  padding-top: 0;
+}
+
+.h2:hover{
+  font-size: 40px;
+}
+
+.x_style:active{
+  color: black;
+  background-color: white;
+  border-style: none;
+  padding-top: 0;
+}

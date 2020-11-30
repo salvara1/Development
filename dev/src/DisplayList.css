@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Oswald:wght@300;400&display=swap');
+
+.card-text{
+  font-size: 1.4rem;
+  font-family: 'Oswald', sans-serif;
+
+}
+.title {
+  font-size: 4rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  padding: 2rem;
+}
+Button {
+  border-radius: 0 !important;
+  margin-top: 3%;
+}
+
+h3 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  text-align: left;
+}
+
+.color{
+  background-color: #F2ECDE;
+  justify-content: center;
+}
+
+.card{
+  max-width: 18rem;
+  min-width: 18rem;
+  margin-top: 4%;
+  padding: 20px;
+  align-items: flex-start;
+  border-style: none;
+}
+
+.align-bug {
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+}
+.card-deck{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  margin-left: 12px;
+}
+
+.card-body{
+  padding: 0;
+  padding-bottom: 13px;
+  font-style: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+.card-img-top{
+  margin-bottom: 10%;
+}
+
+
+#cost {
+  font-family: 'Oswald', sans-serif;
+  font-weight: normal;
+}
+
+.column{
+  width: 60%;
+  background-color: #F2ECDE;
+}
+
+h1 {
+  font-style: 'Montserrat', sans-serif;
+  text-align: center;
+  margin-top: 30px;
+  font-weight: 400;
+}
+
+.hello {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-style: 'Montserrat', sans-serif;
+}
+
+#collasible-nav-dropdown {
+  color: inherit;
+
+}
