@@ -31,7 +31,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 100%;
+  width: 95%;
   height: auto;
   padding: 3%;
   padding-top: 5%;
@@ -39,7 +39,8 @@
 }
 
 .col-sm-4{
-  width: 9rem;
+  max-width: 9rem;
+  text-align: center;
 }
 
 .flex-column {
@@ -72,8 +73,8 @@
 
 .form-control{
   font-weight: bolder;
-  font-size: .9rem;
-  max-width: 1.8rem;
+  font-size: 1rem;
+  max-width: 2.08rem;
   text-align: center;
 }
 
@@ -102,6 +103,7 @@ b{
   text-align: left;
   vertical-align: bottom;
   font-weight: 300;
+
 }
 
 .x{
