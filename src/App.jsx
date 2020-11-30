@@ -15,6 +15,8 @@ import limon from './limoncello.jpg'
 import pom from './pom.jpg'
 import cuc from './cucumber.jpg'
 
+
+
 // This component serves as the parent component to all other
 // visual elements in child components
 class App extends Component{
